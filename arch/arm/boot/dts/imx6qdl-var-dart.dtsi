@@ -562,10 +562,10 @@
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_ecspi1_1>;
 	status = "okay";
-        chip1: spidev@0 {
-               compatible = "spidev";
-               spi-max-frequency = <20000000>;
-               reg = <0>;
+    spidev@0 {
+        compatible = "spidev";
+        spi-max-frequency = <20000000>;
+        reg = <0>;
 	};
 };
 
